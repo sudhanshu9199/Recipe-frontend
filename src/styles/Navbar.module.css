@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+.container .navLink {
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+}
+.container .actives {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  -webkit-text-decoration: underline solid red;
+          text-decoration: underline solid red;
+  text-underline-offset: 0.5rem;
+}
+.container .recipeBtn {
+  color: red;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.2823529412);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}/*# sourceMappingURL=Navbar.module.css.map */

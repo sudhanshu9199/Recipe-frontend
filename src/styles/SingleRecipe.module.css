@@ -1,0 +1,65 @@
+.container {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.container i {
+  position: absolute;
+  font-size: 3rem;
+  color: rgb(255, 0, 119);
+  bottom: 0;
+  right: 50%;
+}
+.container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.container img {
+  width: 25rem;
+  border-radius: 2rem;
+}
+.container form {
+  width: 40%;
+}
+.container form input,
+.container form textarea,
+.container form select {
+  width: 40%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.148);
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+  color: rgb(210, 210, 210);
+  margin-right: 1.5rem;
+}
+.container form input:focus,
+.container form textarea:focus,
+.container form select:focus {
+  outline: none;
+  border-bottom: 2px solid #af4c4c;
+}
+.container form select option {
+  background: #333;
+  color: #fff;
+}
+.container form small {
+  color: red;
+}
+.container form button {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.8rem;
+  margin-right: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.container form button:active {
+  scale: 0.92;
+}
+.container form .delete {
+  background: rgb(0, 145, 0);
+}/*# sourceMappingURL=SingleRecipe.module.css.map */

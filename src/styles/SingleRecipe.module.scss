@@ -1,0 +1,70 @@
+.container {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  i {
+    position: absolute;
+    font-size: 3rem;
+    color: rgb(255, 0, 119);
+    bottom: 0;
+    right: 50%;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  img {
+    width: 25rem;
+    border-radius: 2rem;
+  }
+  form {
+    width: 40%;
+
+    input,
+    textarea,
+    select {
+      width: 40%;
+      padding: 1rem;
+      margin: 1rem 0;
+      border: none;
+      background: rgba(0, 0, 0, 0.148);
+      font-size: 1.2rem;
+      transition: all 0.2s ease;
+      color: rgb(210, 210, 210);
+      margin-right: 1.5rem;
+
+      &:focus {
+        outline: none;
+        border-bottom: 2px solid #af4c4c;
+      }
+    }
+    select option {
+      background: #333;
+      color: #fff;
+    }
+
+    small {
+      color: red;
+    }
+
+    button {
+      background: red;
+      color: white;
+      font-size: 1.5rem;
+      padding: 0.5rem 0.8rem;
+      margin-right: 1rem;
+      border: none;
+      cursor: pointer;
+
+      &:active {
+        scale: 0.92;
+      }
+    }
+
+    .delete {
+      background: rgb(0, 145, 0);
+    }
+  }
+}

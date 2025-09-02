@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+
+  .navLink {
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+  }
+
+  .actives {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline solid red;
+    text-underline-offset: 0.5rem;
+  }
+
+  .recipeBtn {
+    color: red;
+    font-weight: 600;
+    text-decoration: none;
+    background: #00000048;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+}

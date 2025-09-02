@@ -1,0 +1,46 @@
+.card {
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-decoration: none;
+  color: #333;
+  margin: 0.8rem 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.card img {
+  width: 100%;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.card h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.8rem 1rem 0.4rem;
+  color: #222;
+}
+.card small {
+  display: block;
+  margin: 0 1rem 0.6rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+.card p {
+  font-size: 0.95rem;
+  margin: 0.1rem 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+.card p small {
+  color: #0077ff;
+  font-weight: 500;
+}/*# sourceMappingURL=RecipeCard.module.css.map */
